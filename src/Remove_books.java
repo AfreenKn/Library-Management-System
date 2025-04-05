@@ -68,9 +68,9 @@ public class Remove_books extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String url="jdbc:mysql://localhost:3306/library";
+        String url="jdbc:mysql://localhost:3306/db_name";
         String user="root";
-        String pwd="qwerty@007";
+        String pwd="db_password";
         String input=jTextField1.getText();
         String query;
 
