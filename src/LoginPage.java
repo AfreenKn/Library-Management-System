@@ -34,7 +34,7 @@ public class LoginPage extends javax.swing.JFrame {
 public Connection getConnection() {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");  // Load MySQL DriverThis tells Java where to find MySQL 
-            return DriverManager.getConnection("jdbc:mysql://localhost:3306/library", "root", "qwerty@007");
+            return DriverManager.getConnection("jdbc:mysql://localhost:3306/db_name", "root", "db_password");
         } catch (Exception e) {
             e.printStackTrace();
             return null;
