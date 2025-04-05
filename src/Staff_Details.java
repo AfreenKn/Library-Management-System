@@ -79,9 +79,9 @@ public class Staff_Details extends javax.swing.JFrame {
         // TODO add your handling code here:
 //    The DefaultTableModel class provides built-in methods to manipulate table data easily:Add,Remove
         DefaultTableModel model=(DefaultTableModel)jTable1.getModel();
-        String url="jdbc:mysql://localhost:3306/library";
+        String url="jdbc:mysql://localhost:3306/db_name";
         String user="root";
-        String pwd="qwerty@007";
+        String pwd="db_password";
         String query="Select * from staff;";
         try{
             Connection conn =DriverManager.getConnection(url,user,pwd);
