@@ -1,51 +1,37 @@
-# Library-Management-System
-The Library Management System (LMS) is a Java-based desktop application developed using Apache NetBeans IDE with a MySQL database as the backend. It allows administrators to manage books, users, and transactions such as book issuance and returns efficiently. This system simplifies library operations by maintaining organized records and automating routine tasks.
+<img width="793" alt="login github" src="https://github.com/user-attachments/assets/11aebc2b-9d42-473d-a88e-d4c63907de5d" /># 📚 Library Management System
 
-🎯 Key Features:
-Admin Login & Signup
+A Java-based desktop application for managing library operations. Built using Java Swing (GUI), MySQL (Database), and Apache NetBeans IDE.
 
-Secure login authentication with role management
+## 🚀 Features
+- Admin login and signup
+- Add/view/update/delete books
+- Issue and return books
+- Add/view/update/delete staff
+- Role-based access (admin/user)
+- Responsive Swing GUI
 
-Role-based access (e.g., admin, manager)
+## 🛠 Tech Stack
+- Java Swing
+- MySQL
+- JDBC
+- Apache NetBeans
 
-Book Management
+<img width="793" alt="login github" src="https://github.com/user-attachments/assets/3cff60cd-2140-4452-ae92-c51c46e78259" />
+<img width="571" alt="signup github" src="https://github.com/user-attachments/assets/0399676b-722f-465d-b596-6ee6f1b2ff23" />
+<img width="831" alt="dashborad github " src="https://github.com/user-attachments/assets/dcff0c47-cc13-4b64-9db9-949618c4eb14" />
 
-Add, update, delete, and search for books
+<img width="710" alt="booksavailable github" src="https://github.com/user-attachments/assets/c32a7171-d809-4a68-96e7-cd0ed1c782a7" />
 
-Maintain book details such as title, author, ISBN, quantity, and availability
+<img width="854" alt="addbook github" src="https://github.com/user-attachments/assets/b3a41003-0e11-4a59-8bf9-2fa5a1d4f139" />
+<img width="558" alt="deletebook github" src="https://github.com/user-attachments/assets/d597e009-7f4c-4e2a-952d-4540ecbc14d6" />
 
-User Management
+<img width="473" alt="staffdetails github" src="https://github.com/user-attachments/assets/2d1e1e14-cb2b-48aa-b765-c234774c2280" />
 
-Add and manage registered library users
 
-Store user contact and profile information
+<img width="715" alt="addstaff github" src="https://github.com/user-attachments/assets/0574aedf-f5c5-4d10-a38e-b7560c393175" />
 
-Dashboard
 
-Overview of total books, issued books, and users
+<img width="660" alt="staffdelete github" src="https://github.com/user-attachments/assets/0157c2a5-ee89-4855-9da1-15301b21f224" />
 
-Visual stats (optional for future updates)
 
-Database Integration
-
-Uses MySQL with JDBC connectivity for storing and retrieving records
-
-Ensures data persistence
-
-🛠️ Technologies Used:
-Java (Swing GUI)
-
-MySQL
-
-JDBC
-
-Apache NetBeans IDE
-
-Git & GitHub (for version control)
-
-💡 Use Cases:
-College/university library automation
-
-Small-scale public or private libraries
-
-As a learning project for Java + MySQL integration
+<img width="758" alt="editadmin github" src="https://github.com/user-attachments/assets/4c52274f-c605-4d35-a104-c47af48eff8b" />
