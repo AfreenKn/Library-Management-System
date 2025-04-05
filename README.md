@@ -17,7 +17,7 @@ A Java-based desktop application for managing library operations. Built using Ja
 - Apache NetBeans
 
 
-<img width="793" alt="login github" src="https://github.com/user-attachments/assets/11aebc2b-9d42-473d-a88e-d4c63907de5d" />
+
 
 
 <img width="793" alt="login github" src="https://github.com/user-attachments/assets/3cff60cd-2140-4452-ae92-c51c46e78259" />
