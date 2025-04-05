@@ -95,9 +95,9 @@ public class Add_Staff extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         
-         String url="jdbc:mysql://localhost:3306/library";
+         String url="jdbc:mysql://localhost:3306/db_name";
         String user="root";
-        String pswd="qwerty@007";
+        String pswd="db_password";
         String query="insert into staff values(?,?,?);  ";
         String idText = jTextField1.getText().trim();
         String name=jTextField2.getText();
