@@ -14,8 +14,3 @@ A Java-based desktop Library Management System built using Apache NetBeans and M
 - MySQL
 - JDBC
 
-## 🚀 How to Run
-1. Import project in NetBeans
-2. Set up MySQL database (`library`)
-3. Update DB credentials in code
-4. Run the application
