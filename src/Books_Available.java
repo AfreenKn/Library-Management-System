@@ -78,9 +78,9 @@ public class Books_Available extends javax.swing.JFrame {
         // method to use table 
         DefaultTableModel model =(DefaultTableModel)jTable1.getModel();
         model.setRowCount(0); // ✅ Clears table before fetching new data
-        String url="jdbc:mysql://localhost:3306/library";
+        String url="jdbc:mysql://localhost:3306/db_name";
         String user="root";
-        String pwd="qwerty@007";
+        String pwd="db_password";
         String query="select * from books";
         try
         {
